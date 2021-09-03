@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./eduford_img/eduford_img/banner.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.logo {
+  width: 150px;
+  margin-top: 25px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks ul li {
+  display: inline;
+  margin: 25px;
+}
+.navLinks ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navLinks ul li a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  display: inline;
+  margin: auto;
+  background-color: crimson;
+}
+.navLinks ul li a:hover::after {
+  width: 100%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  color: #ffff;
+}
+.content h1 {
+  margin: 25px;
+  font-size: 60px;
+}
+.content p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 200;
+}
+.content a {
+  border: 0.5px solid white;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 200;
+}
+.content a:hover {
+  background-color: crimson;
+}
