@@ -294,3 +294,32 @@ nav .fas {
     flex-direction: column;
   }
 }
+/* callToAction */
+.callToAction {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/eduford_img/eduford_img/banner2.jpg);
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  margin: 100px auto;
+  padding: 100px 0;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.callToAction a {
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 200;
+  border: 0.5px solid white;
+  font-size: 20px;
+}
+.callToAction h1 {
+  margin-bottom: 60px;
+}
+.callToAction a:hover {
+  background-color: tomato;
+}
