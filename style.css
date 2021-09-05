@@ -261,4 +261,36 @@ nav .fas {
   }
 }
 
+/* ----------testimontial--------------- */
+
+.testimontial {
+  width: 80%;
+  margin: auto;
+}
+
+.testimontial-col {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(252, 233, 233);
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+}
+.testimontial-col img {
+  border-radius: 50%;
+  width: 50px;
+  margin: 10px;
+}
+.testimontial-col p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.fas {
+  color: goldenrod;
+}
+@media (max-width: 700px) {
+  .testimontial-col {
+    flex-direction: column;
+  }
 }
