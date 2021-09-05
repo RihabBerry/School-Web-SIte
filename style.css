@@ -110,4 +110,58 @@ nav .fas {
     text-align: center;
   }
 }
+/* -------Courses-------
+ */
+.title {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.title h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.title p {
+  color: gray;
+  font-size: 14px;
+}
+.levels {
+  width: 80%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+.level {
+  text-align: center;
+  margin: 0 25px;
+  background-color: rgb(252, 233, 233);
+  padding: 40px 20px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.level:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.level p {
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+}
+.level h4 {
+  margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+  .levels {
+    flex-direction: column;
+  }
+  .level {
+    margin-bottom: 25px;
+  }
+}
 }
