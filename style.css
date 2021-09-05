@@ -323,3 +323,21 @@ nav .fas {
 .callToAction a:hover {
   background-color: tomato;
 }
+/* ----------footer---------
+ */
+
+.footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.footer p {
+  color: gray;
+  font-size: 14px;
+  margin: 25px 0;
+  line-height: 25px;
+}
+.socialMedia .fab {
+  margin-right: 25px;
+  color: tomato;
+}
