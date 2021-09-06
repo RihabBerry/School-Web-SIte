@@ -341,3 +341,64 @@ nav .fas {
   margin-right: 25px;
   color: tomato;
 }
+/* -------------About Page ------------ */
+.sub-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(eduford_img/eduford_img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  height: 50vh;
+  width: 100%;
+}
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-us h1 {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.about-col img {
+  width: 100%;
+  padding: 150px 0;
+}
+
+.about-col h1 {
+  color: #000;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.about-col p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.btn-hero {
+  margin-top: 20px;
+  border: 1px solid tomato;
+  text-decoration: none;
+  color: tomato;
+  padding: 7px 15px;
+}
+.btn-hero:hover {
+  background-color: tomato;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .about-col h1 {
+    font-size: 15px;
+    padding-top: 100px;
+  }
+}
