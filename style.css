@@ -402,3 +402,64 @@ nav .fas {
     padding-top: 100px;
   }
 }
+/* ------blogpage----- */
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog-col-left {
+  flex-basis: 62%;
+}
+
+.blog-col-left img {
+  width: 100%;
+  padding: 0;
+}
+.blog-col-left p {
+  color: gray;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0;
+}
+.blog-col-right {
+  flex-basis: 32%;
+}
+.blog-col-right h3 {
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.blog-col-right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  padding: 10px;
+  border: 1px solid rgb(211, 208, 208);
+  margin-top: 25px;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+
+  margin: 25px 0;
+  background-color: rgb(231, 231, 231);
+  outline: none;
+  border: none;
+}
+
+.form a {
+  margin-top: 25px;
+}
+@media (max-width: 700px) {
+  .blog-col-right {
+    margin-top: 25px;
+  }
+}
